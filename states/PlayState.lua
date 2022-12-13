@@ -30,7 +30,7 @@ function PlayState:update(dt)
                 self.score = self.score +1
                 pipe.scored = true
                 sounds['scoreSound']:play()
-            end
+            end 
         end
         pipe:update(dt)
         
